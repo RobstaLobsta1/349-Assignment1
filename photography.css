@@ -71,13 +71,6 @@ nav {
   padding: 20px 0;
 }
 
-@media screen and (min-width: 80rem) {
-  .container {
-    margin: 1em 2em;
-    display: flex;
-  }
-}
-
 img,
 picture {
   max-width: 100%;
