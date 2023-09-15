@@ -12,6 +12,10 @@ h2 {
   text-shadow: 3px 3px 1px rgb(255, 255, 255);
 }
 
+h3 {
+  visibility: hidden;
+}
+
 body {
   width: 700px;
   margin: 0 auto;
@@ -75,4 +79,8 @@ nav {
 img,
 picture {
   max-width: 100%;
+}
+
+small {
+  writing-mode: vertical-lr;
 }

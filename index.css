@@ -22,6 +22,8 @@ body {
 
 P {
   color: white;
+  text-indent: 50px;
+  word-wrap: break-word;
 }
 
 nav {
@@ -40,4 +42,10 @@ li {
   font-style: italic;
   text-decoration: underline;
   text-transform: capitalize;
+  list-style: square;
+  list-style-position: inside;
+}
+
+img {
+  vertical-align: sub;
 }

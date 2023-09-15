@@ -11,6 +11,7 @@ h2 {
   padding: 20px 0;
   text-shadow: 3px 3px 1px rgb(255, 255, 255);
   letter-spacing: 2px;
+  rotate: 3deg;
 }
 
 body {
@@ -23,6 +24,10 @@ body {
 
 P {
   color: rgb(0, 0, 0);
+  outline-style: solid;
+  outline-color: rgb(255, 255, 255);
+  outline-width: 5px;
+  word-break: keep-all;
 }
 
 table,
