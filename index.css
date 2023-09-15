@@ -30,6 +30,7 @@ nav {
   font-family: sans-serif;
   margin: 0;
   padding: 20px 0;
+  line-height: 2;
 }
 
 li {
@@ -39,5 +40,4 @@ li {
   font-style: italic;
   text-decoration: underline;
   text-transform: capitalize;
-  line-height: 2;
 }
