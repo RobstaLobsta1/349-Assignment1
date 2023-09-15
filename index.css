@@ -13,7 +13,6 @@ h1 {
 }
 
 body {
-  width: 700px;
   margin: 0 auto;
   background-color: rgb(70, 172, 230);
   padding: 0 20px 20px 20px;
@@ -48,4 +47,21 @@ li {
 
 img {
   vertical-align: sub;
+}
+
+@media only screen and (min-width: 600px) {
+  .menu {
+    width: 25%;
+  }
+  .content {
+    width: 75%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .menu {
+    width: 20%;
+  }
+  .content {
+    width: 79%;
+  }
 }
